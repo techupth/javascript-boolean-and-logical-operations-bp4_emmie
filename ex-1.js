@@ -1,8 +1,9 @@
-let isOver18;
-let hasCriminalBlacklist;
+let isOver18 = true;
+let hasCriminalBlacklist = true;
 
-let isAllow;
+let isAllow = isOver18 || !hasCriminalBlacklist;
 
-// Start coding here
+James = isOver18 || !hasCriminalBlacklist;
 
+isAllow = isAllow && James;
 console.log(isAllow);
